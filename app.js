@@ -9,7 +9,6 @@ var Movie = require('./models/movie');
 mongoose.connect('mongodb://localhost/imooc');
 
 var _ =  require('underscore');
-
 app.set('views', './views/pages');
 app.set('view engine', 'jade');
 
